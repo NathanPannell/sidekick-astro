@@ -12,8 +12,8 @@ export const phone = {
 };
 
 export const email = {
-	href: "mailto:info@pawstronaut.com",
-	label: "info@pawstronaut.com",
+	href: "mailto:sidekickplayers@outlook.com",
+	label: "sidekickplayers@outlook.com",
 };
 
 export const address = {
@@ -26,25 +26,21 @@ export const address = {
 
 export const socialMedia = {
 	facebook: {
-		url: "https://facebook.com",
+		url: "https://facebook.com/sidekickplayers",
 		label: "Facebook",
 		icon: "facebook",
 	},
-	x: {
-		url: "https://x.com",
-		label: "X",
-		icon: "x",
-	},
-	instagram: {
-		url: "https://instagram.com",
-		label: "Instagram",
-		icon: "instagram",
-	},
-	youtube: {
-		url: "https://youtube.com",
-		label: "YouTube",
-		icon: "youtube",
-	},
+    phone: {
+        url: "tel:+16042882415",
+        label: "Phone",
+        icon: "phone",
+    },
+    email: {
+        url: "mailto:sidekickplayers@outlook.com",
+        label: "Email",
+        icon: "email",
+    },
+
 };
 
 export const hours = {
