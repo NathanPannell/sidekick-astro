@@ -1,11 +1,9 @@
 ---
-import { siteName, address } from "~/data/config.js";
+import { address } from "~/data/config.js";
 ---
 
 <address class="not-italic text-lg">
-	{siteName}<br />
+    {address.name}<br />
 	{address.street}<br />
-	{address.city}, {address.state}
-	{address.zip}<br />
-	{address.country}
+	{address.city}, {address.state} {address.zip}
 </address>
